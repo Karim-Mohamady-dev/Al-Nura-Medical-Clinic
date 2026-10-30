@@ -1,0 +1,6 @@
+{
+  "name": "Al Nura Medical Clinic | Premium Healthcare UAE",
+  "description": "Bilingual, premium UAE medical center website featuring comprehensive doctor directories, specialty care, branch schedules, and direct WhatsApp booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

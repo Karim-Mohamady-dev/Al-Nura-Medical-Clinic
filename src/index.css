@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-clinic-navy: #123047;
+    --color-clinic-teal: #159A91;
+    --color-clinic-teal-dark: #0f7a73;
+    --color-clinic-mint: #E8F5F2;
+    --color-clinic-bg: #FAFCFB;
+    --color-clinic-gray: #F2F5F6;
+    --color-clinic-text: #243746;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html[dir="rtl"] {
+    font-family: 'Cairo', 'IBM Plex Sans Arabic', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbar for clean healthcare UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2F5F6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Clean print styles for medical summaries */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+}
